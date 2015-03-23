@@ -100,15 +100,15 @@ npyr = np.asarray(y_r)
 print x,npy
 
 plt.figure()
-plt.errorbar(x, npy, xerr=0., yerr=npyr, color="blue")
+plt.errorbar(x, npy, xerr=0., yerr=npyr, color="blue", capsize=5)
 
 npy = np.asarray(y1)
 npyr = np.asarray(y_r1)
-plt.errorbar(x, npy, xerr=0., yerr=npyr, color="red")
+plt.errorbar(x, npy, xerr=0., yerr=npyr, color="red", capsize=5)
 
 npy = np.asarray(y2)
 npyr = np.asarray(y_r2)
-plt.errorbar(x, npy, xerr=0., yerr=npyr, color="purple")
+plt.errorbar(x, npy, xerr=0., yerr=npyr, color="purple", capsize=5)
 
 plt.show()
 
